@@ -10,9 +10,9 @@ def problem_1():
 
       l1.sort()
       l2.sort()
-
       for i in range(len(l1)):
          difs += abs(int(l1[i]) - int(l2[i]))
+
    return difs
 
 def problem_2():
@@ -27,7 +27,7 @@ def problem_2():
 
       l1.sort()
       l2.sort()
-
       for c in range(len(l1)):
          difs += l2.count(l1[c]) * int(l1[c])
+         
    return difs
