@@ -2,7 +2,7 @@ def problem_1():
    l1 = []
    l2 = []
    difs = 0
-   with open('day_1/input_1.txt', 'r') as f:
+   with open('day_01/input_1.txt', 'r') as f:
       for line in f:
          num = line.split()
          l1.append(num[0])
@@ -19,7 +19,7 @@ def problem_2():
    l1 = []
    l2 = []
    difs = 0
-   with open('day_1/input_1.txt', 'r') as f:
+   with open('day_01/input_1.txt', 'r') as f:
       for line in f:
          num = line.split()
          l1.append(num[0])
