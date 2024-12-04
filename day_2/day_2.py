@@ -10,6 +10,7 @@ def problem_1():
          levels = list(map(int, line.split()))
          if is_safe(levels):
             safe_count += 1
+   f.close()
    return safe_count
 
 def is_safe_with_dampener(report):
@@ -27,4 +28,5 @@ def problem_2():
          levels = list(map(int, line.split()))
          if is_safe_with_dampener(levels):
             safe_count += 1
+   f.close()
    return safe_count
