@@ -4,7 +4,7 @@ def is_safe(report):
    return increasing or decreasing
 
 def problem_1():
-   with open('day_2/input_2.txt', 'r') as f:
+   with open('day_02/input_2.txt', 'r') as f:
       safe_count = 0
       for line in f.readlines():
          levels = list(map(int, line.split()))
@@ -22,7 +22,7 @@ def is_safe_with_dampener(report):
    return False
 
 def problem_2():
-   with open('day_2/input_2.txt', 'r') as f:
+   with open('day_02/input_2.txt', 'r') as f:
       safe_count = 0
       for line in f.readlines():
          levels = list(map(int, line.split()))
