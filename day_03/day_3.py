@@ -1,7 +1,7 @@
 import re
 
 def problem_1():
-   with open('day_3/input_3.txt', 'r') as f:
+   with open('day_03/input_3.txt', 'r') as f:
       data = f.read()
       pattern = re.compile(r'mul\((\d+),(\d+)\)')
       matches = pattern.findall(data)
@@ -10,7 +10,7 @@ def problem_1():
    return result
 
 def problem_2():
-   with open('day_3/input_3.txt', 'r') as f:
+   with open('day_03/input_3.txt', 'r') as f:
       data = f.read()
       pattern = re.compile(r'mul\((\d+),(\d+)\)')
       start = 0
